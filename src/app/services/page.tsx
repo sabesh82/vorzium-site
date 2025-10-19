@@ -36,13 +36,13 @@ const ServicesPage = () => {
     },
     {
       icon: <MdOutlineWeb className="text-blue-200 text-6xl" />,
-      title: "Web Development",
-      desc: "Responsive, high-performing websites built with modern technologies for speed and scalability.",
+      title: "Projects & Assignments",
+      desc: "Stunning, user-centered interfaces designed to convert and engage your audience effortlessly.",
     },
     {
       icon: <MdBrush className="text-blue-200 text-6xl" />,
-      title: "UI/UX Design",
-      desc: "Stunning, user-centered interfaces designed to convert and engage your audience effortlessly.",
+      title: "Web Development",
+      desc: "Responsive, high-performing websites built with modern technologies for speed and scalability.",
     },
   ];
 
@@ -177,7 +177,7 @@ const ServicesPage = () => {
           Whether it’s a full-stack app or a smart web solution — we’re ready to
           bring your ideas to life.
         </p>
-        <button className="px-8 py-3 bg-white text-blue-950 font-semibold rounded-full text-lg hover:bg-gray-200 transition-all duration-300 hover:scale-105">
+        <button className="px-8 py-3 bg-white text-blue-950 font-semibold rounded-full text-lg hover:bg-gray-200 transition-all duration-300 hover:scale-105 cursor-pointer">
           Get Started
         </button>
       </section>
