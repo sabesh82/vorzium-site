@@ -51,7 +51,7 @@ const Card: React.FC<CardProps> = ({
           src={image}
           alt={title}
           className={`w-full rounded-md mb-3 h-50 transition-all duration-500 ease-in-out ${
-            imageClassName ?? "filter grayscale hover:grayscale-0"
+            imageClassName ?? "filter"
           }`}
         />
       )}

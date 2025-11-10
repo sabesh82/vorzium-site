@@ -9,11 +9,11 @@ const AboutPage = () => {
       {/* Hero Section */}
       <section className="relative h-[60vh] flex items-center justify-center text-center">
         <div className="absolute inset-0 bg-gradient-to-b from-[#0A192F] via-[#112240] to-[#0A192F] animate-pulse-slow"></div>
-        <div className="relative z-10 px-4">
+        <div className="relative z-10 px-4 mt-25 md:mt-0">
           <h1 className="text-5xl md:text-7xl font-bold tracking-wider mb-4 bg-clip-text text-transparent bg-gradient-to-r from-white via-gray-300 to-gray-400 animate-gradient">
             DEFINING DIGITAL ELEGANCE
           </h1>
-          <p className="max-w-2xl mx-auto text-lg md:text-xl bg-clip-text text-transparent bg-gradient-to-r from-gray-200 via-gray-300 to-white">
+          <p className="max-w-2xl mx-auto text-lg md:text-xl bg-clip-text text-transparent bg-gradient-to-r from-gray-200 via-gray-300 to-white mb-4 md:mb-4">
             Vorzium Innovations transforms creativity into intelligent
             experiences — where technology meets artistry.
           </p>
@@ -22,15 +22,15 @@ const AboutPage = () => {
 
       {/* Our Journey */}
       <section className="bg-gray-100">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-20 py-16 lg:py-24">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-20 py-15 lg:py-15">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="flex justify-center">
-              <div className="relative w-[280px] sm:w-[340px] md:w-[400px] aspect-[4/5]">
+              <div className="relative w-[290px] sm:w-[350px] md:w-[420px] aspect-[4/5]">
                 <Image
-                  src="/about/about1.jpg"
+                  src="/about1.jpg"
                   alt="Our Journey"
                   fill
-                  className="rounded-xl object-cover grayscale hover:grayscale-0 transition-all duration-500"
+                  className="rounded-xl object-cover transition-all duration-500"
                 />
               </div>
             </div>
@@ -76,12 +76,12 @@ const AboutPage = () => {
               </p>
             </div>
             <div className="order-1 md:order-2 flex justify-center">
-              <div className="relative w-[280px] sm:w-[340px] md:w-[400px] aspect-[4/5]">
+              <div className="relative w-[290px] sm:w-[350px] md:w-[420px] aspect-[4/5]">
                 <Image
-                  src="/about/about2.jpg"
+                  src="/about2.jpg"
                   alt="Our Mission"
                   fill
-                  className="rounded-xl object-cover grayscale hover:grayscale-0 transition-all duration-500"
+                  className="rounded-xl object-cover transition-all duration-500"
                 />
               </div>
             </div>
@@ -90,36 +90,46 @@ const AboutPage = () => {
       </section>
 
       {/* Brand / Partners Section */}
-      <section className="py-20 lg:py-24 bg-white">
-        <div className="text-center mb-8">
-          <h2 className="text-4xl font-bold text-blue-900">
-            Our Trusted Partners
+      <section className="bg-[#1d283a]  py-20">
+        <div className="text-center">
+          <h2 className="text-4xl font-bold text-[#a8b1ce]">
+            The techs we use
           </h2>
-          <div className="w-24 h-1 bg-blue-600 mx-auto my-4"></div>
-          <p className="text-gray-600 max-w-2xl mx-auto text-base md:text-lg">
-            We collaborate with leading global brands, startups, and visionaries
-            who share our passion for quality and innovation.
+          <div className="w-24 h-1 bg-blue-500 mx-auto my-4 rounded-full"></div>
+          <p className="text-gray-400 max-w-2xl mx-auto text-lg leading-relaxed">
+            Modern tools and technologies that shape our digital craftsmanship.
           </p>
         </div>
 
-        <div className="relative overflow-hidden group py-6 [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]">
-          <div className="flex items-center w-max animate-scroll-x">
-            {["logo1.png", "logo2.png", "logo3.png", "logo4.png"].map(
-              (logo, i) => (
-                <div
-                  key={i}
-                  className="flex-shrink-0 w-64 mx-8 flex justify-center items-center"
-                >
-                  <Image
-                    src={`/logos/${logo}`}
-                    alt={`Partner ${i}`}
-                    width={200}
-                    height={100}
-                    className="object-contain transition-transform duration-300 hover:scale-110 hover:opacity-90 cursor-pointer"
-                  />
-                </div>
-              )
-            )}
+        {/* Logos slider */}
+        <div className="relative overflow-hidden group py-10 [mask-image:linear-gradient(to_right,transparent,black_15%,black_85%,transparent)]">
+          <div className="flex items-center w-max animate-scroll-x2">
+            {[
+              "icon1.png",
+              "icon2.png",
+              "icon3.png",
+              "icon4.png",
+              "icon5.png",
+              "icon6.png",
+              "icon7.png",
+              "icon8.png",
+            ].map((logo, i) => (
+              <div
+                key={i}
+                className="flex-shrink-0 
+             w-32 sm:w-44 md:w-56 lg:w-64 
+             mx-1 sm:mx-1 md:mx-7 
+             flex justify-center items-center"
+              >
+                <Image
+                  src={`/${logo}`}
+                  alt={`Partner ${i}`}
+                  width={60}
+                  height={60}
+                  className="object-contain opacity-100  hover:scale-110 transition-all duration-300"
+                />
+              </div>
+            ))}
           </div>
         </div>
       </section>
