@@ -171,11 +171,11 @@ const ServicesPage = () => {
         }`}
       >
         <h2 className="text-3xl font-semibold mb-4 animate-fadeIn">
-          Let’s Build Something Amazing
+          Let&apos;s Build Something Amazing
         </h2>
         <p className="max-w-xl mx-auto text-gray-300 mb-8 text-lg animate-fadeInSlow">
-          Whether it’s a full-stack app or a smart web solution — we’re ready to
-          bring your ideas to life.
+          Whether it&apos;s a full-stack app or a smart web solution — we&apos;re
+          ready to bring your ideas to life.
         </p>
         <button className="px-8 py-3 bg-white text-blue-950 font-semibold rounded-full text-lg hover:bg-gray-200 transition-all duration-300 hover:scale-105 cursor-pointer">
           Get Started

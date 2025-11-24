@@ -55,10 +55,10 @@ const Footer = () => {
         {/* Right Side - Contact & CTA */}
         <div className="flex flex-col gap-2">
           <h3 className="text-lg font-semibold mb-2">Contact</h3>
-          <p className="text-gray-400">Email: hello@vorzium.com</p>
-          <p className="text-gray-400">Phone: +94 123 456 789</p>
+          <p className="text-gray-400">Email: support@vorzium.com</p>
+          <p className="text-gray-400">Phone: +94 77 000 0000</p>
           <button className="mt-4 px-4 py-2 bg-blue-600 rounded-lg hover:bg-blue-500 transition text-white font-semibold cursor-pointer">
-            Let’s Work Together
+            Let&apos;s Work Together
           </button>
         </div>
       </div>

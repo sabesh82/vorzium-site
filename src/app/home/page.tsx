@@ -193,7 +193,7 @@ const Page = () => {
           {/* Right side */}
           <div className="flex flex-col items-center lg:items-start text-center lg:text-left lg:ml-10 px-2 w-full lg:w-auto">
             <h1 className="text-2xl lg:text-4xl">
-              Let's Build{" "}
+              Let&apos;s Build{" "}
               <span className="text-3xl lg:text-6xl font-semibold underline text-blue-950">
                 Your Vision
               </span>
@@ -201,9 +201,9 @@ const Page = () => {
             <p className="mt-5 text-gray-900 text-lg lg:text-xl text-justify max-w-[90%] lg:max-w-none">
               Turn your ideas into interactive, high-performing digital
               experiences. Whether you need a sleek portfolio site, a business
-              web app, or a student project, we'll shape your concept into a
-              product that works beautifully on every screen. Schedule a quick
-              chat today — let's bring your idea to life!
+              web app, or a student project, we&apos;ll shape your concept into
+              a product that works beautifully on every screen. Schedule a quick
+              chat today — let&apos;s bring your idea to life!
             </p>
 
             <button className="flex justify-center lg:justify-start mt-10 p-2 border border-gray-400 w-40 rounded-full cursor-pointer bg-gray-200 hover:bg-gray-300 transition-transform duration-150 text-base lg:text-lg mb-5">
@@ -225,18 +225,18 @@ const Page = () => {
             are?
           </h1>
           <p className="text-lg md:text-xl mt-10 text-justify">
-            We’re proudly based in Chilaw, in the heart of Sri Lanka’s
+            We&apos;re proudly based in Chilaw, in the heart of Sri Lanka&apos;s
             northwestern region. Our workspace blends creativity and technology,
             allowing us to craft solutions that connect innovation with
             real-world impact. With easy access and strong digital connectivity,
-            we’re positioned to collaborate seamlessly with clients across the
-            globe
+            we&apos;re positioned to collaborate seamlessly with clients across
+            the globe
             <br></br>
-            <br></br> At our Chilaw base, we thrive on ideas and teamwork. It’s
-            where strategy meets design, and concepts turn into experiences.
-            Whether you’re nearby or oceans away, we ensure every project feels
-            close — built on clear communication, trust, and forward-thinking
-            collaboration.
+            <br></br> At our Chilaw base, we thrive on ideas and teamwork.
+            It&apos;s where strategy meets design, and concepts turn into
+            experiences. Whether youre nearby or oceans away, we ensure every
+            project feels close — built on clear communication, trust, and
+            forward-thinking collaboration.
           </p>
 
           <button className="mt-5 p-2 flex justify-center md:justify-start border border-gray-400 bg-gray-200 w-27 rounded-3xl hover:bg-gray-300 cursor-pointer text-lg">

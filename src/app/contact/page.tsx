@@ -21,8 +21,8 @@ const ContactPage = () => {
           <div className="w-24 h-[3px] bg-blue-500 mx-auto mt-4 animate-width"></div>
 
           <p className="mt-5 max-w-2xl mx-auto text-lg text-gray-200">
-            Let’s collaborate and bring your ideas into reality with precision
-            and creativity.
+            Let&apos;s collaborate and bring your ideas into reality with
+            precision and creativity.
           </p>
         </div>
       </section>
@@ -37,7 +37,7 @@ const ContactPage = () => {
             </h2>
 
             <p className="text-gray-600 text-lg leading-relaxed">
-              We're here to discuss your project, answer questions, or
+              We&apos;re here to discuss your project, answer questions, or
               brainstorm ideas. Every great product begins with a conversation.
             </p>
 
@@ -47,7 +47,7 @@ const ContactPage = () => {
                 support@vorzium.com
               </p>
               <p className="flex items-center gap-3 text-gray-700 text-lg">
-                <MdPhone className="text-blue-600 text-2xl" /> +94 77 123 4567
+                <MdPhone className="text-blue-600 text-2xl" /> +94 77 000 0000
               </p>
               <p className="flex items-center gap-3 text-gray-700 text-lg">
                 <MdLocationPin className="text-blue-600 text-2xl" /> Chilaw, Sri

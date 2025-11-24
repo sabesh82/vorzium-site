@@ -71,7 +71,7 @@ const AboutPage = () => {
               </p>
               <p className="text-gray-700 leading-relaxed text-base md:text-lg">
                 From AI integrations to full-stack development, our goal is to
-                redefine what’s possible and create experiences that truly
+                redefine what&apos;s possible and create experiences that truly
                 connect people and technology.
               </p>
             </div>
